@@ -19,6 +19,8 @@
 		1F208245189B0DC800F11AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20822D189B0DC700F11AAE /* UIKit.framework */; };
 		1F20824D189B0DC800F11AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F20824B189B0DC800F11AAE /* InfoPlist.strings */; };
 		1F20824F189B0DC800F11AAE /* The_WifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F20824E189B0DC800F11AAE /* The_WifeTests.m */; };
+		1F208259189B11A400F11AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F208258189B11A400F11AAE /* Main.storyboard */; };
+		1F20825B189B144300F11AAE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20825A189B144300F11AAE /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		1F20824A189B0DC800F11AAE /* The WifeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The WifeTests-Info.plist"; sourceTree = "<group>"; };
 		1F20824C189B0DC800F11AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F20824E189B0DC800F11AAE /* The_WifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_WifeTests.m; sourceTree = "<group>"; };
+		1F208258189B11A400F11AAE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1F20825A189B144300F11AAE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F20825B189B144300F11AAE /* SpriteKit.framework in Frameworks */,
 				1F20822C189B0DC700F11AAE /* CoreGraphics.framework in Frameworks */,
 				1F20822E189B0DC700F11AAE /* UIKit.framework in Frameworks */,
 				1F20822A189B0DC700F11AAE /* Foundation.framework in Frameworks */,
@@ -77,6 +82,7 @@
 		1F20821D189B0DC700F11AAE = {
 			isa = PBXGroup;
 			children = (
+				1F208258189B11A400F11AAE /* Main.storyboard */,
 				1F20822F189B0DC700F11AAE /* The Wife */,
 				1F208248189B0DC800F11AAE /* The WifeTests */,
 				1F208228189B0DC700F11AAE /* Frameworks */,
@@ -96,6 +102,7 @@
 		1F208228189B0DC700F11AAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F20825A189B144300F11AAE /* SpriteKit.framework */,
 				1F208229189B0DC700F11AAE /* Foundation.framework */,
 				1F20822B189B0DC700F11AAE /* CoreGraphics.framework */,
 				1F20822D189B0DC700F11AAE /* UIKit.framework */,
@@ -220,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F208259189B11A400F11AAE /* Main.storyboard in Resources */,
 				1F208234189B0DC700F11AAE /* InfoPlist.strings in Resources */,
 				1F20823C189B0DC700F11AAE /* Images.xcassets in Resources */,
 			);

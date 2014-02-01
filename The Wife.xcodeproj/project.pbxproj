@@ -21,6 +21,8 @@
 		1F20824F189B0DC800F11AAE /* The_WifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F20824E189B0DC800F11AAE /* The_WifeTests.m */; };
 		1F208259189B11A400F11AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F208258189B11A400F11AAE /* Main.storyboard */; };
 		1F20825B189B144300F11AAE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20825A189B144300F11AAE /* SpriteKit.framework */; };
+		1F667A61189DA8D100C306AC /* MessageKetchup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F667A60189DA8D100C306AC /* MessageKetchup.storyboard */; };
+		1F667A64189DACA700C306AC /* EHTMessageKetchupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F667A63189DACA700C306AC /* EHTMessageKetchupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		1F20824E189B0DC800F11AAE /* The_WifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_WifeTests.m; sourceTree = "<group>"; };
 		1F208258189B11A400F11AAE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1F20825A189B144300F11AAE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1F667A60189DA8D100C306AC /* MessageKetchup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageKetchup.storyboard; sourceTree = "<group>"; };
+		1F667A62189DACA700C306AC /* EHTMessageKetchupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTMessageKetchupViewController.h; sourceTree = "<group>"; };
+		1F667A63189DACA700C306AC /* EHTMessageKetchupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTMessageKetchupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		1F20821D189B0DC700F11AAE = {
 			isa = PBXGroup;
 			children = (
+				1F667A62189DACA700C306AC /* EHTMessageKetchupViewController.h */,
+				1F667A63189DACA700C306AC /* EHTMessageKetchupViewController.m */,
+				1F667A60189DA8D100C306AC /* MessageKetchup.storyboard */,
 				1F208258189B11A400F11AAE /* Main.storyboard */,
 				1F20822F189B0DC700F11AAE /* The Wife */,
 				1F208248189B0DC800F11AAE /* The WifeTests */,
@@ -228,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F208259189B11A400F11AAE /* Main.storyboard in Resources */,
+				1F667A61189DA8D100C306AC /* MessageKetchup.storyboard in Resources */,
 				1F208234189B0DC700F11AAE /* InfoPlist.strings in Resources */,
 				1F20823C189B0DC700F11AAE /* Images.xcassets in Resources */,
 			);
@@ -250,6 +259,7 @@
 			files = (
 				1F20823A189B0DC700F11AAE /* EHTAppDelegate.m in Sources */,
 				1F208236189B0DC700F11AAE /* main.m in Sources */,
+				1F667A64189DACA700C306AC /* EHTMessageKetchupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +460,7 @@
 				1F208254189B0DC800F11AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F208255189B0DC800F11AAE /* Build configuration list for PBXNativeTarget "The WifeTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +469,7 @@
 				1F208257189B0DC800F11AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

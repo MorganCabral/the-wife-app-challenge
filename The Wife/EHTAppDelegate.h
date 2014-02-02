@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EHTTaskCollection.h"
 
 @interface EHTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+/*! A collection of tasks. */
+@property (strong, nonatomic) EHTTaskCollection *taskCollection;
 
 @end

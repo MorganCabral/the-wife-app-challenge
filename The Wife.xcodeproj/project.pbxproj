@@ -21,6 +21,7 @@
 		1F20824F189B0DC800F11AAE /* The_WifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F20824E189B0DC800F11AAE /* The_WifeTests.m */; };
 		1F20825B189B144300F11AAE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20825A189B144300F11AAE /* SpriteKit.framework */; };
 		1F374FF7189E23EF005DF697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F374FF6189E23EF005DF697 /* Main.storyboard */; };
+		1FCE3478189EDAF5002EF3E4 /* EHTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE3477189EDAF5002EF3E4 /* EHTSettingsViewController.m */; };
 		AA7C6D38189DBCD1006791E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7C6D37189DBCD1006791E5 /* AudioToolbox.framework */; };
 		AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6D3A189DBE3B006791E5 /* EHTTask.m */; };
 		AA7C6D42189E02E4006791E5 /* EHTTaskCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6D41189E02E4006791E5 /* EHTTaskCollection.m */; };
@@ -55,6 +56,8 @@
 		1F20824E189B0DC800F11AAE /* The_WifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_WifeTests.m; sourceTree = "<group>"; };
 		1F20825A189B144300F11AAE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		1F374FF6189E23EF005DF697 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1FCE3476189EDAF5002EF3E4 /* EHTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTSettingsViewController.h; sourceTree = "<group>"; };
+		1FCE3477189EDAF5002EF3E4 /* EHTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTSettingsViewController.m; sourceTree = "<group>"; };
 		1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskPreviewViewController.h; sourceTree = "<group>"; };
 		1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskPreviewViewController.m; sourceTree = "<group>"; };
 		AA7C6D34189DB9B7006791E5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				1F374FF6189E23EF005DF697 /* Main.storyboard */,
+				1FCE3476189EDAF5002EF3E4 /* EHTSettingsViewController.h */,
+				1FCE3477189EDAF5002EF3E4 /* EHTSettingsViewController.m */,
 				1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */,
 				1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */,
 				1F20822F189B0DC700F11AAE /* The Wife */,
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F20823A189B0DC700F11AAE /* EHTAppDelegate.m in Sources */,
+				1FCE3478189EDAF5002EF3E4 /* EHTSettingsViewController.m in Sources */,
 				AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */,
 				AA7C6D42189E02E4006791E5 /* EHTTaskCollection.m in Sources */,
 				1F208236189B0DC700F11AAE /* main.m in Sources */,

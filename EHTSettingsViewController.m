@@ -1,14 +1,14 @@
 //
-//  EHTTaskPreviewViewController.m
+//  EHTSettingsViewController.m
 //  The Wife
 //
 //  Created by Morgan Cabral on 2/2/14.
 //  Copyright (c) 2014 RIT. All rights reserved.
 //
 
-#import "EHTTaskPreviewViewController.h"
+#import "EHTSettingsViewController.h"
 
-@implementation EHTTaskPreviewViewController
+@implementation EHTSettingsViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -36,9 +36,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Actions
-- (IBAction)didClickEditButton:(id)sender {
-    
+#pragma mark - Actions/Outlets
+- (IBAction)didRequestFacebookAuth:(id)sender {
+    UIAlertView *view = [[UIAlertView alloc] initWithTitle:@"Authenticate with Facebook"
+                                                   message:@"Facebook integration hasn't been built yet, but if it was we would ask you for your credentials here." delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+    [view show];
 }
+
+
 
 @end

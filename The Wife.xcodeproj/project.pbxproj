@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FFD8567189EE0E900ECD0B0 /* wife-Dear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD8566189EE0E900ECD0B0 /* wife-Dear.wav */; };
 		0FFD8569189EE0FC00ECD0B0 /* wife-Honey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD8568189EE0FC00ECD0B0 /* wife-Honey.wav */; };
-		0FFD856B189EE1A300ECD0B0 /* wife-Just do this one thing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD856A189EE1A300ECD0B0 /* wife-Just do this one thing.wav */; };
-		0FFD856D189EE1AF00ECD0B0 /* wife-Come on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD856C189EE1AF00ECD0B0 /* wife-Come on.wav */; };
 		0FFD856F189EE1B700ECD0B0 /* wife-Hey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD856E189EE1B700ECD0B0 /* wife-Hey.wav */; };
 		1F20822A189B0DC700F11AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F208229189B0DC700F11AAE /* Foundation.framework */; };
 		1F20822C189B0DC700F11AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20822B189B0DC700F11AAE /* CoreGraphics.framework */; };
@@ -27,6 +24,7 @@
 		1F20825B189B144300F11AAE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20825A189B144300F11AAE /* SpriteKit.framework */; };
 		1F374FF7189E23EF005DF697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F374FF6189E23EF005DF697 /* Main.storyboard */; };
 		1FCE3478189EDAF5002EF3E4 /* EHTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE3477189EDAF5002EF3E4 /* EHTSettingsViewController.m */; };
+		1FCE347B189EE838002EF3E4 /* EHTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE347A189EE838002EF3E4 /* EHTSettings.m */; };
 		AA7C6D38189DBCD1006791E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7C6D37189DBCD1006791E5 /* AudioToolbox.framework */; };
 		AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6D3A189DBE3B006791E5 /* EHTTask.m */; };
 		AA7C6D42189E02E4006791E5 /* EHTTaskCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6D41189E02E4006791E5 /* EHTTaskCollection.m */; };
@@ -68,6 +66,8 @@
 		1F374FF6189E23EF005DF697 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1FCE3476189EDAF5002EF3E4 /* EHTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTSettingsViewController.h; sourceTree = "<group>"; };
 		1FCE3477189EDAF5002EF3E4 /* EHTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTSettingsViewController.m; sourceTree = "<group>"; };
+		1FCE3479189EE838002EF3E4 /* EHTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTSettings.h; sourceTree = "<group>"; };
+		1FCE347A189EE838002EF3E4 /* EHTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTSettings.m; sourceTree = "<group>"; };
 		1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskPreviewViewController.h; sourceTree = "<group>"; };
 		1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskPreviewViewController.m; sourceTree = "<group>"; };
 		AA7C6D34189DB9B7006791E5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -197,6 +197,8 @@
 				AA7C6D3A189DBE3B006791E5 /* EHTTask.m */,
 				AA7C6D40189E02E4006791E5 /* EHTTaskCollection.h */,
 				AA7C6D41189E02E4006791E5 /* EHTTaskCollection.m */,
+				1FCE3479189EE838002EF3E4 /* EHTSettings.h */,
+				1FCE347A189EE838002EF3E4 /* EHTSettings.m */,
 			);
 			name = "Task Models";
 			sourceTree = "<group>";
@@ -300,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCE347B189EE838002EF3E4 /* EHTSettings.m in Sources */,
 				1F20823A189B0DC700F11AAE /* EHTAppDelegate.m in Sources */,
 				1FCE3478189EDAF5002EF3E4 /* EHTSettingsViewController.m in Sources */,
 				AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */,

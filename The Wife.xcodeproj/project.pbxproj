@@ -19,9 +19,8 @@
 		1F208245189B0DC800F11AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20822D189B0DC700F11AAE /* UIKit.framework */; };
 		1F20824D189B0DC800F11AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F20824B189B0DC800F11AAE /* InfoPlist.strings */; };
 		1F20824F189B0DC800F11AAE /* The_WifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F20824E189B0DC800F11AAE /* The_WifeTests.m */; };
-		1F208259189B11A400F11AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F208258189B11A400F11AAE /* Main.storyboard */; };
 		1F20825B189B144300F11AAE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20825A189B144300F11AAE /* SpriteKit.framework */; };
-		1FF0EF6D189DFD8E00681AE3 /* EHTTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0EF6C189DFD8E00681AE3 /* EHTTaskDetailViewController.m */; };
+		1FBEC950189E1B6900D8D469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBEC94F189E1B6900D8D469 /* Main.storyboard */; };
 		AA7C6D38189DBCD1006791E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7C6D37189DBCD1006791E5 /* AudioToolbox.framework */; };
 		AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6D3A189DBE3B006791E5 /* EHTTask.m */; };
 		AA7C6D42189E02E4006791E5 /* EHTTaskCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6D41189E02E4006791E5 /* EHTTaskCollection.m */; };
@@ -54,10 +53,10 @@
 		1F20824A189B0DC800F11AAE /* The WifeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The WifeTests-Info.plist"; sourceTree = "<group>"; };
 		1F20824C189B0DC800F11AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F20824E189B0DC800F11AAE /* The_WifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_WifeTests.m; sourceTree = "<group>"; };
-		1F208258189B11A400F11AAE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		1F20825A189B144300F11AAE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		1FF0EF6B189DFD8E00681AE3 /* EHTTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskDetailViewController.h; sourceTree = "<group>"; };
-		1FF0EF6C189DFD8E00681AE3 /* EHTTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskDetailViewController.m; sourceTree = "<group>"; };
+		1FBEC94F189E1B6900D8D469 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskPreviewViewController.h; sourceTree = "<group>"; };
+		1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskPreviewViewController.m; sourceTree = "<group>"; };
 		AA7C6D34189DB9B7006791E5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		AA7C6D36189DBAA5006791E5 /* Nagging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nagging.h; sourceTree = "<group>"; };
 		AA7C6D37189DBCD1006791E5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -65,8 +64,6 @@
 		AA7C6D3A189DBE3B006791E5 /* EHTTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTask.m; sourceTree = "<group>"; };
 		AA7C6D40189E02E4006791E5 /* EHTTaskCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskCollection.h; sourceTree = "<group>"; };
 		AA7C6D41189E02E4006791E5 /* EHTTaskCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskCollection.m; sourceTree = "<group>"; };
-		1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskPreviewViewController.h; sourceTree = "<group>"; };
-		1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskPreviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +95,9 @@
 		1F20821D189B0DC700F11AAE = {
 			isa = PBXGroup;
 			children = (
+				1FBEC94F189E1B6900D8D469 /* Main.storyboard */,
 				1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */,
 				1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */,
-				1F208258189B11A400F11AAE /* Main.storyboard */,
 				1F20822F189B0DC700F11AAE /* The Wife */,
 				1F208248189B0DC800F11AAE /* The WifeTests */,
 				1F208228189B0DC700F11AAE /* Frameworks */,
@@ -134,7 +131,6 @@
 		1F20822F189B0DC700F11AAE /* The Wife */ = {
 			isa = PBXGroup;
 			children = (
-				1F208258189B11A400F11AAE /* Main.storyboard */,
 				1F208238189B0DC700F11AAE /* EHTAppDelegate.h */,
 				1F208239189B0DC700F11AAE /* EHTAppDelegate.m */,
 				1F20823B189B0DC700F11AAE /* Images.xcassets */,
@@ -261,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F208259189B11A400F11AAE /* Main.storyboard in Resources */,
+				1FBEC950189E1B6900D8D469 /* Main.storyboard in Resources */,
 				1F208234189B0DC700F11AAE /* InfoPlist.strings in Resources */,
 				1F20823C189B0DC700F11AAE /* Images.xcassets in Resources */,
 			);
@@ -282,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF0EF70189E138000681AE3 /* EHTTaskPreviewViewController.m in Sources */,
 				1F20823A189B0DC700F11AAE /* EHTAppDelegate.m in Sources */,
 				AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */,
 				AA7C6D42189E02E4006791E5 /* EHTTaskCollection.m in Sources */,

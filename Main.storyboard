@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Preview-->
+        <!--Task Preview View Controller - Preview-->
         <scene sceneID="qUC-x8-fQ2">
             <objects>
-                <tableViewController id="xs2-vl-Tdl" sceneMemberID="viewController">
+                <tableViewController id="xs2-vl-Tdl" customClass="EHTTaskPreviewViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="pFK-Fs-Pax">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,11 +194,17 @@
                             <outlet property="delegate" destination="xs2-vl-Tdl" id="ent-RG-t4u"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Preview" id="aZG-fI-t4d"/>
+                    <navigationItem key="navigationItem" title="Preview" id="aZG-fI-t4d">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="5sQ-i7-2Wg">
+                            <connections>
+                                <action selector="didClickEditButton:" destination="xs2-vl-Tdl" id="ZTU-hf-LDG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j7n-vG-orh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1714" y="-938"/>
+            <point key="canvasLocation" x="1664" y="-720"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rxK-fh-nHu">

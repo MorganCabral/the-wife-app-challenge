@@ -65,6 +65,8 @@
 		AA7C6D3A189DBE3B006791E5 /* EHTTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTask.m; sourceTree = "<group>"; };
 		AA7C6D40189E02E4006791E5 /* EHTTaskCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskCollection.h; sourceTree = "<group>"; };
 		AA7C6D41189E02E4006791E5 /* EHTTaskCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskCollection.m; sourceTree = "<group>"; };
+		1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskPreviewViewController.h; sourceTree = "<group>"; };
+		1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskPreviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,8 @@
 		1F20821D189B0DC700F11AAE = {
 			isa = PBXGroup;
 			children = (
-				1FF0EF6B189DFD8E00681AE3 /* EHTTaskDetailViewController.h */,
-				1FF0EF6C189DFD8E00681AE3 /* EHTTaskDetailViewController.m */,
+				1FF0EF6E189E138000681AE3 /* EHTTaskPreviewViewController.h */,
+				1FF0EF6F189E138000681AE3 /* EHTTaskPreviewViewController.m */,
 				1F208258189B11A400F11AAE /* Main.storyboard */,
 				1F20822F189B0DC700F11AAE /* The Wife */,
 				1F208248189B0DC800F11AAE /* The WifeTests */,
@@ -280,11 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF0EF70189E138000681AE3 /* EHTTaskPreviewViewController.m in Sources */,
 				1F20823A189B0DC700F11AAE /* EHTAppDelegate.m in Sources */,
 				AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */,
 				AA7C6D42189E02E4006791E5 /* EHTTaskCollection.m in Sources */,
 				1F208236189B0DC700F11AAE /* main.m in Sources */,
-				1FF0EF6D189DFD8E00681AE3 /* EHTTaskDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

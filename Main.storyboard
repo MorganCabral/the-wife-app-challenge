@@ -228,15 +228,15 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Jye-bt-HrH" style="IBUITableViewCellStyleDefault" id="oaJ-GA-UjR">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Jye-bt-HrH" style="IBUITableViewCellStyleDefault" id="oaJ-GA-UjR">
                                         <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oaJ-GA-UjR" id="Hmv-Ud-ONn">
-                                            <rect key="frame" x="0.0" y="0.0" width="281" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Due Soonest" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jye-bt-HrH">
-                                                    <rect key="frame" x="15" y="0.0" width="266" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -290,15 +290,15 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Facebook Shaming" id="Mb3-pK-FlD">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yxF-HE-cWt" style="IBUITableViewCellStyleDefault" id="I9G-5d-eLK">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yxF-HE-cWt" style="IBUITableViewCellStyleDefault" id="I9G-5d-eLK">
                                         <rect key="frame" x="0.0" y="391" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I9G-5d-eLK" id="ig9-Zq-SqF">
-                                            <rect key="frame" x="0.0" y="0.0" width="281" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Public Shaming Enabled" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yxF-HE-cWt">
-                                                    <rect key="frame" x="15" y="0.0" width="266" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -316,6 +316,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Settings" id="0x1-rZ-lrY"/>
+                    <connections>
+                        <outlet property="tableCellFacebookAuthentication" destination="AWo-Pg-nZQ" id="UQB-1M-KUQ"/>
+                        <outlet property="tableCellFacebookPublicShaming" destination="I9G-5d-eLK" id="AZd-9K-N30"/>
+                        <outlet property="tableCellSortingModeAlphabetical" destination="bmU-Sl-bqM" id="zr0-Vw-7Rs"/>
+                        <outlet property="tableCellSortingModeDueSoonest" destination="oaJ-GA-UjR" id="Khq-1P-b20"/>
+                        <outlet property="tableCellSortingModelMostRecent" destination="O5M-E7-vYE" id="Sfb-45-1mF"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hjz-Sk-0ao" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

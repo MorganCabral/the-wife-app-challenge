@@ -21,7 +21,8 @@
 @end
 
 static NSString *tasksCollectionStoragePath() {
-    NSString *documents = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSLocalDomainMask, YES)[0];
+    //NSString *documents = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSLocalDomainMask, YES)[0];
+    NSString *documents = @"~/Documents";
     return [documents stringByAppendingPathComponent:@"TaskCollection"];
 }
 

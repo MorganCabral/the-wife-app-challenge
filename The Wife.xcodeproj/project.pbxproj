@@ -24,6 +24,8 @@
 		1F20825B189B144300F11AAE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F20825A189B144300F11AAE /* SpriteKit.framework */; };
 		1FAC26A0189F22B100A28996 /* EHTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC269F189F22B100A28996 /* EHTSettingsViewController.m */; };
 		1FAC26A3189F233700A28996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAC26A2189F233700A28996 /* Main.storyboard */; };
+		1FAC26A6189F251300A28996 /* EHTTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC26A5189F251300A28996 /* EHTTaskListViewController.m */; };
+		1FAC26A9189F255D00A28996 /* EHTTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC26A8189F255D00A28996 /* EHTTaskDetailViewController.m */; };
 		1FCE347B189EE838002EF3E4 /* EHTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE347A189EE838002EF3E4 /* EHTSettings.m */; };
 		AA7C6D38189DBCD1006791E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7C6D37189DBCD1006791E5 /* AudioToolbox.framework */; };
 		AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6D3A189DBE3B006791E5 /* EHTTask.m */; };
@@ -66,6 +68,10 @@
 		1FAC269E189F22B100A28996 /* EHTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTSettingsViewController.h; sourceTree = "<group>"; };
 		1FAC269F189F22B100A28996 /* EHTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTSettingsViewController.m; sourceTree = "<group>"; };
 		1FAC26A2189F233700A28996 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1FAC26A4189F251300A28996 /* EHTTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskListViewController.h; sourceTree = "<group>"; };
+		1FAC26A5189F251300A28996 /* EHTTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskListViewController.m; sourceTree = "<group>"; };
+		1FAC26A7189F255D00A28996 /* EHTTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTTaskDetailViewController.h; sourceTree = "<group>"; };
+		1FAC26A8189F255D00A28996 /* EHTTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTTaskDetailViewController.m; sourceTree = "<group>"; };
 		1FCE3479189EE838002EF3E4 /* EHTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHTSettings.h; sourceTree = "<group>"; };
 		1FCE347A189EE838002EF3E4 /* EHTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHTSettings.m; sourceTree = "<group>"; };
 		AA7C6D34189DB9B7006791E5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -184,6 +190,10 @@
 			children = (
 				1FAC269E189F22B100A28996 /* EHTSettingsViewController.h */,
 				1FAC269F189F22B100A28996 /* EHTSettingsViewController.m */,
+				1FAC26A4189F251300A28996 /* EHTTaskListViewController.h */,
+				1FAC26A5189F251300A28996 /* EHTTaskListViewController.m */,
+				1FAC26A7189F255D00A28996 /* EHTTaskDetailViewController.h */,
+				1FAC26A8189F255D00A28996 /* EHTTaskDetailViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -306,11 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAC26A6189F251300A28996 /* EHTTaskListViewController.m in Sources */,
 				1FCE347B189EE838002EF3E4 /* EHTSettings.m in Sources */,
 				1F20823A189B0DC700F11AAE /* EHTAppDelegate.m in Sources */,
 				AA7C6D3B189DBE3B006791E5 /* EHTTask.m in Sources */,
 				AA7C6D42189E02E4006791E5 /* EHTTaskCollection.m in Sources */,
 				1F208236189B0DC700F11AAE /* main.m in Sources */,
+				1FAC26A9189F255D00A28996 /* EHTTaskDetailViewController.m in Sources */,
 				1FAC26A0189F22B100A28996 /* EHTSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

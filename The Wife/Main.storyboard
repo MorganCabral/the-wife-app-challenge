@@ -4,10 +4,29 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Task Preview View Controller - Preview-->
+        <!--Task List View Controller-->
+        <scene sceneID="yg9-ge-Av5">
+            <objects>
+                <viewController id="GDh-h4-8F3" customClass="EHTTaskListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GI3-er-Grc"/>
+                        <viewControllerLayoutGuide type="bottom" id="G7E-NS-rx6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BiF-72-ih9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lul-04-CqQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ti-z5-OZy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1395" y="-1196"/>
+        </scene>
+        <!--Table View Controller - Preview-->
         <scene sceneID="5AV-B9-0T8">
             <objects>
-                <tableViewController id="bkM-W1-tOL" customClass="EHTTaskPreviewViewController" sceneMemberID="viewController">
+                <tableViewController id="bkM-W1-tOL" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="RBp-Ga-xak">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -214,7 +233,7 @@
                             <tableViewSection headerTitle="Task Order" id="Mp0-nR-Zu8">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="5Js-5Z-8qt" rowHeight="60" style="IBUITableViewCellStyleDefault" id="bmU-Sl-bqM">
-                                        <rect key="frame" x="0.0" y="119" width="320" height="60"/>
+                                        <rect key="frame" x="0.0" y="55" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bmU-Sl-bqM" id="jnp-x1-65j">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
@@ -231,7 +250,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Jye-bt-HrH" rowHeight="60" style="IBUITableViewCellStyleDefault" id="oaJ-GA-UjR">
-                                        <rect key="frame" x="0.0" y="179" width="320" height="60"/>
+                                        <rect key="frame" x="0.0" y="115" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oaJ-GA-UjR" id="Hmv-Ud-ONn">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
@@ -248,7 +267,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="dkL-Fo-c6j" rowHeight="60" style="IBUITableViewCellStyleDefault" id="O5M-E7-vYE">
-                                        <rect key="frame" x="0.0" y="239" width="320" height="60"/>
+                                        <rect key="frame" x="0.0" y="175" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O5M-E7-vYE" id="VI8-0v-uzx">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
@@ -269,7 +288,7 @@
                             <tableViewSection headerTitle="Facebook" id="3Ei-QZ-NnJ">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="60" id="AWo-Pg-nZQ">
-                                        <rect key="frame" x="0.0" y="347" width="320" height="60"/>
+                                        <rect key="frame" x="0.0" y="283" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AWo-Pg-nZQ" id="Vlc-bJ-Mwh">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
@@ -293,7 +312,7 @@
                             <tableViewSection headerTitle="Facebook Shaming" id="Mb3-pK-FlD">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yxF-HE-cWt" rowHeight="60" style="IBUITableViewCellStyleDefault" id="I9G-5d-eLK">
-                                        <rect key="frame" x="0.0" y="455" width="320" height="60"/>
+                                        <rect key="frame" x="0.0" y="391" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I9G-5d-eLK" id="ig9-Zq-SqF">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
@@ -341,7 +360,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="ExF-Q1-4fI" kind="relationship" relationship="rootViewController" id="3ZE-Wb-KPQ"/>
+                        <segue destination="GDh-h4-8F3" kind="relationship" relationship="rootViewController" id="wJr-1Y-Hq0"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="By9-ZE-d4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>

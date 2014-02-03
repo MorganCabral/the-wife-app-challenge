@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "The Wife/EHTSettings.h"
+#import "EHTSettings.h"
 
 @interface EHTSettingsViewController : UITableViewController
 

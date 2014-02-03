@@ -89,9 +89,8 @@
         // Unmark the other cells.
         [self clearTaskSortCellAccessories];
         
-        // Mark this cell as the selected on.
+        // Mark this cell as the selected one.
         _tableCellSortingModeAlphabetical.accessoryType = UITableViewCellAccessoryCheckmark;
-        
     }
     else if( _tableCellSortingModeDueSoonest.selected )
     {
@@ -101,7 +100,7 @@
         // Unmark the other cells.
         [self clearTaskSortCellAccessories];
         
-        // Mark this cell as the selected on.
+        // Mark this cell as the selected one.
         _tableCellSortingModeDueSoonest.accessoryType = UITableViewCellAccessoryCheckmark;
     }
     else if( _tableCellSortingModelMostRecent.selected )
@@ -112,7 +111,7 @@
         // Unmark the other cells.
         [self clearTaskSortCellAccessories];
         
-        // Mark this cell as the selected on.
+        // Mark this cell as the selected one.
         _tableCellSortingModelMostRecent.accessoryType = UITableViewCellAccessoryCheckmark;
     }
     
